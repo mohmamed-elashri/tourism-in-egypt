@@ -1,6 +1,6 @@
 # Visit Egypt (tourism-in-egypt)
 
-A small static, Arabic (right-to-left) tourism site. It has a home page with a city card and a Cairo page listing three attractions: the pyramids, a museum and a historic market.
+A small static, Arabic (right-to-left) tourism site. It has a home page with four city cards and one page each for Cairo, Luxor, Aswan and Alexandria, listing the main attractions with credited photos.
 
 No build step and no dependencies: plain HTML and CSS.
 
@@ -19,6 +19,9 @@ then visit http://localhost:8000.
 ```
 index.html          home page
 cities/cairo.html   Cairo page
+cities/luxor.html   Luxor page
+cities/aswan.html   Aswan page
+cities/alexandria.html   Alexandria page
 styles.css          shared styles
 images/             photos (Wikimedia Commons)
 attribution.html    image credits page
@@ -26,6 +29,7 @@ attribution.html    image credits page
 
 ## What the design covers
 
+- Sticky navigation bar shared by all pages.
 - Responsive grid layout (cards reflow from one column on phones to several on wide screens).
 - Right-to-left layout (`dir="rtl"`, logical CSS properties).
 - Accessibility basics: landmarks (`header`, `main`, `footer`), skip link, descriptive image alt text, visible keyboard focus, text contrast checked against WCAG AA for the main buttons, reduced-motion respected.
@@ -38,7 +42,7 @@ The site is published with GitHub Pages from the `main` branch (legacy branch de
 
 ## Known gaps
 
-- Only one city (Cairo) exists.
+- Four cities are covered; other destinations (for example the Red Sea coast) are not.
 - Page text is Arabic only.
 
 ## Image credits

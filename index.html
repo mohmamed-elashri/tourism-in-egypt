@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visit Egypt</title>
+    <meta name="description" content="دليل مبسط للسياحة في مصر: ابدأ بالقاهرة والأهرامات والمتحف المصري وخان الخليلي.">
+    <meta name="color-scheme" content="light dark">
+    <title>اكتشف مصر | Visit Egypt</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <a class="skip-link" href="#cities">انتقل إلى المحتوى</a>
     <header class="hero">
         <div class="container">
             <h1>اكتشف مصر</h1>
@@ -15,19 +18,21 @@
         </div>
     </header>
 
-    <section id="cities">
-        <div class="container">
-            <h2>المدن الرئيسية</h2>
-            <div class="cities-grid">
-                <div class="city">
-                    <img src="images/cairo.jpg" alt="القاهرة">
-                    <h3>القاهرة</h3>
-                    <p>مزيج بين الحضارة الفرعونية والتطور الحديث.</p>
-                    <a href="cities/cairo.html" class="btn">استكشاف</a>
+    <main>
+        <section id="cities" aria-labelledby="cities-title">
+            <div class="container">
+                <h2 id="cities-title">المدن الرئيسية</h2>
+                <div class="cities-grid">
+                    <article class="city">
+                        <img src="images/cairo.jpg" alt="أفق القاهرة مع برج القاهرة ونهر النيل وقت الغروب" width="1200" height="800" loading="lazy">
+                        <h3>القاهرة</h3>
+                        <p>مزيج بين الحضارة الفرعونية والتطور الحديث.</p>
+                        <a href="cities/cairo.html" class="btn">استكشاف القاهرة</a>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <footer>
         <p>© 2025 Visit Egypt - جميع الحقوق محفوظة.</p>

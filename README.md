@@ -21,7 +21,6 @@ index.html          home page
 cities/cairo.html   Cairo page
 styles.css          shared styles
 images/             photos
-.github/workflows/pages.yml   GitHub Pages deployment
 ```
 
 ## What the design covers
@@ -34,7 +33,7 @@ images/             photos
 
 ## Deployment
 
-The `Deploy to GitHub Pages` workflow publishes the site on every push to `main`. Pages must be enabled once in the repository settings (Settings, Pages, Source: GitHub Actions).
+The site is published with GitHub Pages from the `main` branch (legacy branch deployment, already enabled): https://mohmamed-elashri.github.io/tourism-in-egypt/ . Changes appear after they are merged into `main`.
 
 ## Known gaps
 

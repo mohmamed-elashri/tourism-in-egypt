@@ -20,7 +20,8 @@ then visit http://localhost:8000.
 index.html          home page
 cities/cairo.html   Cairo page
 styles.css          shared styles
-images/             photos
+images/             photos (Wikimedia Commons)
+attribution.html    image credits page
 ```
 
 ## What the design covers
@@ -38,5 +39,8 @@ The site is published with GitHub Pages from the `main` branch (legacy branch de
 ## Known gaps
 
 - Only one city (Cairo) exists.
-- Photo sources and licences are not recorded in the repository. Add credits before reusing the images publicly.
 - Page text is Arabic only.
+
+## Image credits
+
+All photos are from Wikimedia Commons; authors and licenses are in [ATTRIBUTION.md](ATTRIBUTION.md) and on the site at `attribution.html`.
